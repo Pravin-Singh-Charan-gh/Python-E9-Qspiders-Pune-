@@ -1,0 +1,89 @@
+##1. Simple if Statements (10 Questions)
+##1.	Check if a number is positive.
+##2.	Check if a number is divisible by 5.
+##3.	Check if a person is eligible to vote (age ≥ 18).
+##4.	Check if a number is even.
+##5.	Check if a character is uppercase.
+##6.	Check if a number is greater than 100.
+##7.	Check if a string length is more than 10.
+##8.	Check if a year is a leap year (basic condition only: divisible by 4).
+##9.	Check if temperature is above 30°C.
+##10.	Check if a number is a multiple of both 3 and 7.
+
+## 2. if-else Statements (10 Questions)
+##1.	Check if a number is even or odd.
+##2.	Check if a number is positive or negative.
+##3.	Check if a character is vowel or consonant.
+##4.	Check if a student passed (marks ≥ 40) or failed.
+##5.	Compare two numbers and print the larger one.
+##6.	Check if a number is divisible by 2 or not.
+##7.	Check if a person is minor or adult.
+##8.	Check if entered password matches a predefined password.
+##9.	Check whether a number is greater than 50 or not.
+##10.	Check if a number is within range 1–100.
+##11.	Check if a number is divisible by 3 but NOT divisible by 5.
+##12.	Check if a number is within range 10–50 but exclude 25.
+##13.	 Check if a character is alphabet but NOT a vowel.
+##14.	Check if a number is two-digit and palindrome.
+##15.	Check if a person is eligible for discount (age < 18 or > 60 AND purchase > 500).
+##16.	Given a number, print “Weird” if it’s odd or in range 6–20 even. Otherwise print “Not Weird”. (Classic hackerrank logic twist)
+##17.	Check if a year is leap year using full correct rule (divisible by 4, not 100 unless also 400).
+##18.	Check if three numbers can form a triangle.
+##19.	Check if two strings are equal ignoring case.
+##20.	Validate password: length ≥ 8 AND contains digit.
+
+##________________________________________
+##3. if – elif – else Statements (10 Questions)
+##1.	Grade system based on marks (90+, 75+, 50+, else fail).
+##2.	Find largest among three numbers.
+##3.	Check if a year is leap year (proper logic).
+##4.	Categorize age (child, teen, adult, senior).
+##5.	Check if a number is positive, negative, or zero.
+##6.	Simple calculator (+, -, *, / based on user choice).
+##7.	Identify day of week based on number (1–7).
+##8.	ATM withdrawal check (balance > amount, insufficient, zero balance).
+##9.	Check traffic signal color (red, yellow, green).
+##10.	Categorize BMI value.
+##11.	Mini electricity bill calculator (different rates for 0–100, 101–300, 300+ units).
+##12.	Student grading with distinction logic (90+, 75+, 50+, borderline 48–49 → re-evaluation).
+##13.	ATM withdraw system (invalid amount, insufficient balance, successful).
+##14.	Find second largest among three numbers.
+##15.	BMI calculator with underweight / normal / overweight / obese.
+##16.	Ticket pricing (weekday price, weekend price, senior discount).
+##17.	Rock-Paper-Scissors game logic.
+##18.	Income tax slab calculation.
+##19.	Check if quadratic equation has real, equal, or imaginary roots.
+##20.	Categorize temperature (freezing, cold, warm, hot, extreme).
+
+
+##4. Nested if (10 Questions)
+##1.	Check if number is positive AND even.
+##2.	Login system (check username → then password).
+##3.	Check largest among three numbers using nested if.
+##4.	Bank loan eligibility (age check → income check).
+##5.	Check if year divisible by 4 → then divisible by 100 → then 400.
+##6.	Check triangle type after validating sides.
+##7.	Employee bonus eligibility (experience → performance rating).
+##8.	Student scholarship (marks → family income).
+##9.	Check if character is alphabet → then check uppercase/lowercase.
+##10.	E-commerce discount system (cart amount → membership type).
+##11.	Login system with 3 attempts only.
+##12.	Loan approval:
+##•	Age ≥ 21
+##•	Salary ≥ 25k
+##•	If salary < 40k → need guarantor
+
+
+##13.	Validate triangle and then check its type (equilateral / isosceles / scalene).
+##14.	E-commerce discount:
+##•	Cart > 1000 → 10%
+##•	If prime member → additional 5%
+##15.	Scholarship system:
+##•	Marks ≥ 85
+##•	Family income < 5 lakh
+##•	If marks ≥ 95 → bonus stipend
+##16.	Check if number is prime using nested condition.
+##17.	University admission logic (cutoff + entrance test + reserved category).
+##18.	Car insurance eligibility (age + accident history).
+##19.	Multi-level password validation (length → digit → special char).
+##20.	Check if a date is valid (day-month-year basic check).

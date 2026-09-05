@@ -1,0 +1,425 @@
+COnclusion
+svd + svd => possible
+str + str => possible
+list + list => possible
+tup + tup => possible
+
+Python 3.13.3 (tags/v3.13.3:6280bb5, Apr  8 2025, 14:47:33) [MSC v.1943 64 bit (AMD64)] on win32
+Enter "help" below or click "Help" above for more information.
+4+4
+8
+4+5.7
+9.7
+4 + (6+9j)
+(10+9j)
+8 + True
+9
+
+#
+18 + 'hello'
+Traceback (most recent call last):
+  File "<pyshell#6>", line 1, in <module>
+    18 + 'hello'
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+18 + [1,2,3]
+Traceback (most recent call last):
+  File "<pyshell#7>", line 1, in <module>
+    18 + [1,2,3]
+TypeError: unsupported operand type(s) for +: 'int' and 'list'
+18 + (1,2,3)
+Traceback (most recent call last):
+  File "<pyshell#8>", line 1, in <module>
+    18 + (1,2,3)
+TypeError: unsupported operand type(s) for +: 'int' and 'tuple'
+6 + {1,2,3}
+Traceback (most recent call last):
+  File "<pyshell#9>", line 1, in <module>
+    6 + {1,2,3}
+TypeError: unsupported operand type(s) for +: 'int' and 'set'
+6 + {1:'hello', 2:'world'}
+Traceback (most recent call last):
+  File "<pyshell#11>", line 1, in <module>
+    6 + {1:'hello', 2:'world'}
+TypeError: unsupported operand type(s) for +: 'int' and 'dict'
+###############################################################################
+###############################################################################
+###############################################################################
+
+
+
+
+
+
+
+3.0 + 5
+8.0
+3.0 + 8.0
+11.0
+5.8 + (6j+8)
+(13.8+6j)
+5.8 + True
+6.8
+5.8 + 'hello'
+Traceback (most recent call last):
+  File "<pyshell#22>", line 1, in <module>
+    5.8 + 'hello'
+TypeError: unsupported operand type(s) for +: 'float' and 'str'
+5.8 + [1,2,4]
+Traceback (most recent call last):
+  File "<pyshell#23>", line 1, in <module>
+    5.8 + [1,2,4]
+TypeError: unsupported operand type(s) for +: 'float' and 'list'
+5.8 + (1,2,3)
+Traceback (most recent call last):
+  File "<pyshell#24>", line 1, in <module>
+    5.8 + (1,2,3)
+TypeError: unsupported operand type(s) for +: 'float' and 'tuple'
+5.8 + {1,2,3}
+Traceback (most recent call last):
+  File "<pyshell#25>", line 1, in <module>
+    5.8 + {1,2,3}
+TypeError: unsupported operand type(s) for +: 'float' and 'set'
+5.8 + {1:'hello', 2:'world'}
+Traceback (most recent call last):
+  File "<pyshell#26>", line 1, in <module>
+    5.8 + {1:'hello', 2:'world'}
+TypeError: unsupported operand type(s) for +: 'float' and 'dict'
+
+###############################################################################
+###############################################################################
+###############################################################################
+
+(6j+8) + 9
+(17+6j)
+(6j+8) + 6.7
+(14.7+6j)
+(6j+8) + (6j+8)
+(16+12j)
+(6j+8) + True
+(9+6j)
+
+(6j+8) + 'hello'
+Traceback (most recent call last):
+  File "<pyshell#37>", line 1, in <module>
+    (6j+8) + 'hello'
+TypeError: unsupported operand type(s) for +: 'complex' and 'str'
+(6j+8) + [1,2,3]
+Traceback (most recent call last):
+  File "<pyshell#38>", line 1, in <module>
+    (6j+8) + [1,2,3]
+TypeError: unsupported operand type(s) for +: 'complex' and 'list'
+(6j+8) + (1,2,3)
+Traceback (most recent call last):
+  File "<pyshell#39>", line 1, in <module>
+    (6j+8) + (1,2,3)
+TypeError: unsupported operand type(s) for +: 'complex' and 'tuple'
+(6j+8) + (2,)
+Traceback (most recent call last):
+  File "<pyshell#40>", line 1, in <module>
+    (6j+8) + (2,)
+TypeError: unsupported operand type(s) for +: 'complex' and 'tuple'
+(6j+8) + {1,2,3}
+Traceback (most recent call last):
+  File "<pyshell#41>", line 1, in <module>
+    (6j+8) + {1,2,3}
+TypeError: unsupported operand type(s) for +: 'complex' and 'set'
+(6j+8) + {1:'hello', 2:'world'}
+Traceback (most recent call last):
+  File "<pyshell#42>", line 1, in <module>
+    (6j+8) + {1:'hello', 2:'world'}
+TypeError: unsupported operand type(s) for +: 'complex' and 'dict'
+
+
+###############################################################################
+###############################################################################
+###############################################################################
+
+True + 9
+10
+True + 5.6
+6.6
+True + (3+8j)
+(4+8j)
+True + False
+1
+True + 'hello'
+Traceback (most recent call last):
+  File "<pyshell#53>", line 1, in <module>
+    True + 'hello'
+TypeError: unsupported operand type(s) for +: 'bool' and 'str'
+
+True + [1,2,3]
+Traceback (most recent call last):
+  File "<pyshell#55>", line 1, in <module>
+    True + [1,2,3]
+TypeError: unsupported operand type(s) for +: 'bool' and 'list'
+True + (1,2,3)
+Traceback (most recent call last):
+  File "<pyshell#56>", line 1, in <module>
+    True + (1,2,3)
+TypeError: unsupported operand type(s) for +: 'bool' and 'tuple'
+True + (2,)
+Traceback (most recent call last):
+  File "<pyshell#57>", line 1, in <module>
+    True + (2,)
+TypeError: unsupported operand type(s) for +: 'bool' and 'tuple'
+True + {1,2,3}
+Traceback (most recent call last):
+  File "<pyshell#58>", line 1, in <module>
+    True + {1,2,3}
+TypeError: unsupported operand type(s) for +: 'bool' and 'set'
+True + {1:'hello', 2:'world'}
+Traceback (most recent call last):
+  File "<pyshell#59>", line 1, in <module>
+    True + {1:'hello', 2:'world'}
+TypeError: unsupported operand type(s) for +: 'bool' and 'dict'
+
+
+###############################################################################
+###############################################################################
+###############################################################################
+
+'hello' + ' world
+SyntaxError: unterminated string literal (detected at line 1)
+''hello' + ' world'
+SyntaxError: unterminated string literal (detected at line 1)
+'hello' + ' world'
+'hello world'
+'hello' + 5
+Traceback (most recent call last):
+  File "<pyshell#69>", line 1, in <module>
+    'hello' + 5
+TypeError: can only concatenate str (not "int") to str
+'hello' + 4.5
+Traceback (most recent call last):
+  File "<pyshell#70>", line 1, in <module>
+    'hello' + 4.5
+TypeError: can only concatenate str (not "float") to str
+'hello' + (4+9j)
+Traceback (most recent call last):
+  File "<pyshell#71>", line 1, in <module>
+    'hello' + (4+9j)
+TypeError: can only concatenate str (not "complex") to str
+'hello' + True
+Traceback (most recent call last):
+  File "<pyshell#72>", line 1, in <module>
+    'hello' + True
+TypeError: can only concatenate str (not "bool") to str
+'hello' + 'hello'
+'hellohello'
+'hello' + [1,2,3]
+Traceback (most recent call last):
+  File "<pyshell#74>", line 1, in <module>
+    'hello' + [1,2,3]
+TypeError: can only concatenate str (not "list") to str
+'hello' + (1,2,3)
+Traceback (most recent call last):
+  File "<pyshell#75>", line 1, in <module>
+    'hello' + (1,2,3)
+TypeError: can only concatenate str (not "tuple") to str
+'hello' + {1,2,3}
+Traceback (most recent call last):
+  File "<pyshell#76>", line 1, in <module>
+    'hello' + {1,2,3}
+TypeError: can only concatenate str (not "set") to str
+'hello' + {1:'hello', 2:'world'}
+
+Traceback (most recent call last):
+  File "<pyshell#77>", line 1, in <module>
+    'hello' + {1:'hello', 2:'world'}
+TypeError: can only concatenate str (not "dict") to str
+
+###############################################################################
+###############################################################################
+###############################################################################
+
+
+[1,2,3,4] + 2
+Traceback (most recent call last):
+  File "<pyshell#84>", line 1, in <module>
+    [1,2,3,4] + 2
+TypeError: can only concatenate list (not "int") to list
+[1,2,3,4] + 5.5
+Traceback (most recent call last):
+  File "<pyshell#85>", line 1, in <module>
+    [1,2,3,4] + 5.5
+TypeError: can only concatenate list (not "float") to list
+[1,2,3,4] + (3+6j)
+Traceback (most recent call last):
+  File "<pyshell#86>", line 1, in <module>
+    [1,2,3,4] + (3+6j)
+TypeError: can only concatenate list (not "complex") to list
+[1,2,3,4] + True
+Traceback (most recent call last):
+  File "<pyshell#87>", line 1, in <module>
+    [1,2,3,4] + True
+TypeError: can only concatenate list (not "bool") to list
+[1,2,3,4] + 'hello'
+Traceback (most recent call last):
+  File "<pyshell#88>", line 1, in <module>
+    [1,2,3,4] + 'hello'
+TypeError: can only concatenate list (not "str") to list
+[1,2,3,4] + [1,2,3,4]
+[1, 2, 3, 4, 1, 2, 3, 4]
+[1,2,3,4] + (1,2,3)
+Traceback (most recent call last):
+  File "<pyshell#90>", line 1, in <module>
+    [1,2,3,4] + (1,2,3)
+TypeError: can only concatenate list (not "tuple") to list
+[1,2,3,4] + {1,2,4}
+Traceback (most recent call last):
+  File "<pyshell#91>", line 1, in <module>
+    [1,2,3,4] + {1,2,4}
+TypeError: can only concatenate list (not "set") to list
+[1,2,3,4] + {1:'hello', 2:'world'}
+Traceback (most recent call last):
+  File "<pyshell#92>", line 1, in <module>
+    [1,2,3,4] + {1:'hello', 2:'world'}
+TypeError: can only concatenate list (not "dict") to list
+###############################################################################
+###############################################################################
+###############################################################################
+
+
+(1,2,3) + 7
+Traceback (most recent call last):
+  File "<pyshell#98>", line 1, in <module>
+    (1,2,3) + 7
+TypeError: can only concatenate tuple (not "int") to tuple
+(1,2,3) + 5.6
+Traceback (most recent call last):
+  File "<pyshell#99>", line 1, in <module>
+    (1,2,3) + 5.6
+TypeError: can only concatenate tuple (not "float") to tuple
+(1,2,3) + (3+9j)
+Traceback (most recent call last):
+  File "<pyshell#100>", line 1, in <module>
+    (1,2,3) + (3+9j)
+TypeError: can only concatenate tuple (not "complex") to tuple
+(1,2,3) +True
+Traceback (most recent call last):
+  File "<pyshell#101>", line 1, in <module>
+    (1,2,3) +True
+TypeError: can only concatenate tuple (not "bool") to tuple
+(1,2,3) + 'hello'
+Traceback (most recent call last):
+  File "<pyshell#102>", line 1, in <module>
+    (1,2,3) + 'hello'
+TypeError: can only concatenate tuple (not "str") to tuple
+(1,2,3) + [1,2,3]
+Traceback (most recent call last):
+  File "<pyshell#103>", line 1, in <module>
+    (1,2,3) + [1,2,3]
+TypeError: can only concatenate tuple (not "list") to tuple
+(1,2,3) + (1,2,3)
+(1, 2, 3, 1, 2, 3)
+(1,2,3) + (1,2,3) +
+SyntaxError: invalid syntax
+(1,2,3) + {1,2,3}
+Traceback (most recent call last):
+  File "<pyshell#106>", line 1, in <module>
+    (1,2,3) + {1,2,3}
+TypeError: can only concatenate tuple (not "set") to tuple
+(1,2,3) + {1:'hello', 2:'world'}
+Traceback (most recent call last):
+  File "<pyshell#107>", line 1, in <module>
+    (1,2,3) + {1:'hello', 2:'world'}
+TypeError: can only concatenate tuple (not "dict") to tuple
+###############################################################################
+###############################################################################
+###############################################################################
+
+
+{1,2,3} + 5
+Traceback (most recent call last):
+  File "<pyshell#113>", line 1, in <module>
+    {1,2,3} + 5
+TypeError: unsupported operand type(s) for +: 'set' and 'int'
+{1,2,3} + 5.6
+Traceback (most recent call last):
+  File "<pyshell#114>", line 1, in <module>
+    {1,2,3} + 5.6
+TypeError: unsupported operand type(s) for +: 'set' and 'float'
+{1,2,3} + (4+9j)
+Traceback (most recent call last):
+  File "<pyshell#115>", line 1, in <module>
+    {1,2,3} + (4+9j)
+TypeError: unsupported operand type(s) for +: 'set' and 'complex'
+{1,2,3} + True
+Traceback (most recent call last):
+  File "<pyshell#116>", line 1, in <module>
+    {1,2,3} + True
+TypeError: unsupported operand type(s) for +: 'set' and 'bool'
+{1,2,3} + 'hello'
+Traceback (most recent call last):
+  File "<pyshell#117>", line 1, in <module>
+    {1,2,3} + 'hello'
+TypeError: unsupported operand type(s) for +: 'set' and 'str'
+{1,2,3} + [1,2,3]
+Traceback (most recent call last):
+  File "<pyshell#118>", line 1, in <module>
+    {1,2,3} + [1,2,3]
+TypeError: unsupported operand type(s) for +: 'set' and 'list'
+{1,2,3} + {1,2,3}
+Traceback (most recent call last):
+  File "<pyshell#119>", line 1, in <module>
+    {1,2,3} + {1,2,3}
+TypeError: unsupported operand type(s) for +: 'set' and 'set'
+{1,2,3} + {1:'hello', 2:'world'}
+Traceback (most recent call last):
+  File "<pyshell#120>", line 1, in <module>
+    {1,2,3} + {1:'hello', 2:'world'}
+TypeError: unsupported operand type(s) for +: 'set' and 'dict'
+###############################################################################
+###############################################################################
+###############################################################################
+
+{1:'hello', 2:'world'} + 3
+Traceback (most recent call last):
+  File "<pyshell#125>", line 1, in <module>
+    {1:'hello', 2:'world'} + 3
+TypeError: unsupported operand type(s) for +: 'dict' and 'int'
+{1:'hello', 2:'world'} + 5.6
+Traceback (most recent call last):
+  File "<pyshell#126>", line 1, in <module>
+    {1:'hello', 2:'world'} + 5.6
+TypeError: unsupported operand type(s) for +: 'dict' and 'float'
+{1:'hello', 2:'world'} + (5+7j)
+Traceback (most recent call last):
+  File "<pyshell#127>", line 1, in <module>
+    {1:'hello', 2:'world'} + (5+7j)
+TypeError: unsupported operand type(s) for +: 'dict' and 'complex'
+{1:'hello', 2:'world'} + True
+Traceback (most recent call last):
+  File "<pyshell#128>", line 1, in <module>
+    {1:'hello', 2:'world'} + True
+TypeError: unsupported operand type(s) for +: 'dict' and 'bool'
+{1:'hello', 2:'world'} + 'hello'
+Traceback (most recent call last):
+  File "<pyshell#129>", line 1, in <module>
+    {1:'hello', 2:'world'} + 'hello'
+TypeError: unsupported operand type(s) for +: 'dict' and 'str'
+
+{1:'hello', 2:'world'} + [1,2,3]
+Traceback (most recent call last):
+  File "<pyshell#131>", line 1, in <module>
+    {1:'hello', 2:'world'} + [1,2,3]
+TypeError: unsupported operand type(s) for +: 'dict' and 'list'
+
+{1:'hello', 2:'world'} + (1,2,3)
+Traceback (most recent call last):
+  File "<pyshell#133>", line 1, in <module>
+    {1:'hello', 2:'world'} + (1,2,3)
+TypeError: unsupported operand type(s) for +: 'dict' and 'tuple'
+
+{1:'hello', 2:'world'} + {1,2,3}
+Traceback (most recent call last):
+  File "<pyshell#135>", line 1, in <module>
+    {1:'hello', 2:'world'} + {1,2,3}
+TypeError: unsupported operand type(s) for +: 'dict' and 'set'
+
+{1:'hello', 2:'world'} + {1:'hello', 2:'world'}
+Traceback (most recent call last):
+  File "<pyshell#137>", line 1, in <module>
+    {1:'hello', 2:'world'} + {1:'hello', 2:'world'}
+TypeError: unsupported operand type(s) for +: 'dict' and 'dict'
