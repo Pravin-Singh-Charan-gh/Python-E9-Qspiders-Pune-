@@ -1,0 +1,36 @@
+Range : 
+==============
+Range is gemnerally referred as a built in function but it is a built in class. which is capable of returning the sequence of number. 
+Syntax : range(start,stop,step)
+If we dont mention start, it will be considered as 0 And it we dont mention step it will be 0
+Stop will be excluded
+
+Range always return a range object
+>>>range(1,10,1)
+   range(1,10)
+
+If we want to get the sequence from range, we need to either typecaste or loop over range object 
+>>>list(range(1,10,1))
+   [1,2,3,4,5,6,7,8,9]
+
+>>>tuple(range(1,10,1))
+   (1,2,3,4,5,6,7,8,9)
+
+>>>set(range(10,20,2))
+   {10,12,14,16,18}
+
+>>>dict(range(1,10))
+ERROR
+
+>>>str(range(10,20,2))
+   'range(10,20,2)'
+
+We cannot use float
+
+
+
+
+
+
+
+typecasting str->list
