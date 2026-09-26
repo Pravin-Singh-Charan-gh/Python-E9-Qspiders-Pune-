@@ -1,0 +1,14 @@
+##7.	Count number of digits in a number.
+##8.	Find GCD of two numbers.
+##9.	ATM system (loop until user exits).
+##10.	Guessing game (loop until correct guess).
+##11.	Reverse number and check palindrome.
+##12.	Keep asking user until valid email format entered.
+##13.	Create simple number guessing game with limited attempts.
+##14.	Find factorial using while loop.
+##15.	Fibonacci until value exceeds 1000.
+##16.	ATM simulation until exit option selected.
+##17.	Count number of prime digits in a number.
+##18.	Convert decimal to binary manually.
+##19.	Calculate power without using ** operator.
+##20.	Keep dividing number by 2 until it becomes 1.

@@ -1,0 +1,28 @@
+Enumerate 
+==========
+(i)Enumerate is a function which acts a counter to the iterable(collection)
+
+(ii)Enumerate always returns a enumerate object
+
+(iii) In order to get the collection with counter, we can either typecaste or loop over the enumerate object. 
+
+SYNTAX : enumerate(iterable,start) (by default, start will be 0 if not mentioned)
+
+>>>enumerate
+<class 'enumerate'>
+
+>>>enumerate([10,2,332,5445, 63, 8])
+   <enumerate object at 000000000023423423423>
+>>>list
+
+
+
+ZIP
+===
+It is used to merge multiple collections or multiple iterators
+
+names = ['a','ab','sf','sdf']
+>>>zip(names,[56,34,56,78])
+   <zip object at 0x000384728342></zip>
+>>>list(zip(names,[56,34,56,78]))
+   [('a',56),('ab',34).............]

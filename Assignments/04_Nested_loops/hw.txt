@@ -1,0 +1,22 @@
+Nested Loops (10 Questions)
+
+1. Print square star pattern.
+2. Print right angle triangle pattern.
+3. Print multiplication table from 1 to 10.
+4. Print inverted triangle pattern.
+5. Print number pattern (1, 12, 123...).
+6. Matrix addition.
+7. Print a chessboard pattern.
+8. Count total pairs in list without repetition.
+9. Print pyramid star pattern.
+10. Transpose a matrix.
+11. Print hollow square pattern.
+12. Print number pyramid pattern.
+13. Print Floyd’s triangle.
+14. Print diamond pattern.
+15. Matrix multiplication.
+16. Find duplicate pairs in list.
+17. Print pattern with alternating 1 and 0.
+18. Count total inversions in list.
+19. Print Pascal’s triangle.
+20. Generate all substrings of a string.

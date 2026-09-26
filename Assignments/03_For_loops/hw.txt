@@ -1,0 +1,22 @@
+for Loop (10 Questions)
+
+1. Print numbers 1 to 10.
+2. Print even numbers from 1 to 50.
+3. Find sum of first N numbers.
+4.Print multiplication table of a number.
+5. Count digits in a number (using string loop).
+6. Reverse a string using loop.
+7. Count vowels in a string.
+8. Print factorial of a number.
+9. Find largest number in a list.
+10. Print elements at even index positions.
+11. Find second largest number in a list .
+12. Remove duplicate elements from list (without using set).
+13. Count frequency of each character in string.
+14. Print all prime numbers between 1 and 100.
+15. Find common elements between two lists (without intersection method).
+16. Find pairs in list whose sum = target value.
+17. Rotate list by K positions.
+18. Find missing number in 1–N list.
+19. Check if two strings are anagrams (without sorting).
+20. Check Armstrong numbers between 1–500.
