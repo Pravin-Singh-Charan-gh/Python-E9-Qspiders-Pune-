@@ -1,0 +1,1 @@
+#WAP to find the smallest number is a list

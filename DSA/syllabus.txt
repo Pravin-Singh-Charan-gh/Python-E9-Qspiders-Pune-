@@ -1,0 +1,36 @@
+Types of data structures and their implementation
+
+(A) Primitive data structures
+    Integer, float, character, boolean
+
+(B) Linear data structures (non primitive)
+    (i)     Arrays
+    (ii)    String
+    (iii)   Linked List
+    (iv)    Stack
+    (v)     Queue
+
+(C) Non-linear data strucutres (non-primitive)
+    (i) Trees (hierarchical)
+        (a)Binary Trees
+        (b) Binary Search Tree 
+        (c) Self-balancing Trees
+                eg AVL Trees. Red-black Trees
+        (d) Heap
+                min heap and max heap 
+        (e) Trie(Prefix Tree)
+        (f) Segment Tree/ Fenwick Tree(Binary Indexed Tree)
+    
+    (ii) Graphs (Networked)
+        (a)  Directed Vs Undirected Graphs 
+        (b)  Weighted Vs Unweighted
+        (c)  Representations : Adjancy Matrix(2D Array) or Adjancency List
+
+(D) Hashing Data Structures 
+    (i)Hashmap
+    (ii)Hash Set
+
+
+All patterns with practice problems
+https://algomaster.io/practice/dsa-patterns
+https://ujjwal3009.medium.com/learn-16-dsa-patterns-so-you-dont-have-to-solve-3000-leetcode-problems-c1f8a609761d

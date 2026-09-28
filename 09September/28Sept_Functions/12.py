@@ -1,0 +1,1 @@
+#WAP to find the second smallest number in a list
