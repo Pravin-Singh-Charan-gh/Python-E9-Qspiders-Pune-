@@ -4,11 +4,12 @@ Types of data structures and their implementation
     Integer, float, character, boolean
 
 (B) Linear data structures (non primitive)
-    (i)     Arrays
-    (ii)    String
-    (iii)   Linked List
-    (iv)    Stack
-    (v)     Queue
+    (i)      Arrays
+    (ii)     Matrix
+    (iii)    String
+    (iv)     Linked List
+    (v)      Stack
+    (vi)     Queue
 
 (C) Non-linear data strucutres (non-primitive)
     (i) Trees (hierarchical)
@@ -26,7 +27,7 @@ Types of data structures and their implementation
         (b)  Weighted Vs Unweighted
         (c)  Representations : Adjancy Matrix(2D Array) or Adjancency List
 
-(D) Hashing Data Structures 
+(D) Hashing Data Structures
     (i)Hashmap
     (ii)Hash Set
 
