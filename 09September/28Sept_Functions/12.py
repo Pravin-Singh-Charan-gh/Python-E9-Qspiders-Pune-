@@ -11,7 +11,7 @@ def sec_min(l):
         elif i<min2 and i>min1:
             min2 = i
 
-    return min2 
+    return min2
 
 l = eval(input('Enter the list : '))
 print('Second Maximum :',sec_min(l))

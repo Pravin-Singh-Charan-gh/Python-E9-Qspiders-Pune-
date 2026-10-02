@@ -1,7 +1,6 @@
 #WAP to find second largest number in a list
 
 def sec_max(l):
-    
     max1 = max2 = -float('inf')
 
     for i in l:
@@ -11,7 +10,6 @@ def sec_max(l):
             max2 = i
 
     return max2
-
 
 # def sec_max(l):
     

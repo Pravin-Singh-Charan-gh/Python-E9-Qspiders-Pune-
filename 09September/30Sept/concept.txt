@@ -1,0 +1,6 @@
+"""
+Arguments : it is a input we give while calling the function.
+Types of Argument
+(i) Positional Argument
+In this type of argument, the values are assigned to the parameter in the same order as they are passed as an argument
+"""

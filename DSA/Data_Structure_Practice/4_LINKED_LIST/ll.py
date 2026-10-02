@@ -109,7 +109,6 @@ class Linked_List:
                 prev = curr
                 curr = curr.next
 
-
     def del_last(self):
         if self._size==0:
             return
