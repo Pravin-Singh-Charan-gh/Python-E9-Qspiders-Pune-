@@ -1,0 +1,27 @@
+Queue:
+======
+from collection import deque
+q = deque()
+q.append(x)
+q.popleft()
+q[0]
+len(q)
+
+
+IMPORTANT COllections
+=====================
+Array : list
+Stack : list
+Queue : deque
+HashMap : dict
+HasSet : set 
+Min Heap : heapq
+Max Heap : heapq + negatives
+frequency Map : Counter
+Default Map : defaultdict
+Ordered Queue : deque
+
+Counterd
+defaultdict
+heapq 
+bisect

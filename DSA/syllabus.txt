@@ -35,3 +35,11 @@ Types of data structures and their implementation
 All patterns with practice problems
 https://algomaster.io/practice/dsa-patterns
 https://ujjwal3009.medium.com/learn-16-dsa-patterns-so-you-dont-have-to-solve-3000-leetcode-problems-c1f8a609761d
+
+
+OTHER TECHNIQUES
+================
+
+Recursion
+Backtracking
+Memoization/DP

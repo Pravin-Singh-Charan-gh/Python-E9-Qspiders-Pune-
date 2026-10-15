@@ -1,6 +1,3 @@
-# Linked List Implementation
-# initialize, prepend, append, insert_at, remove_at, delete by value, search, __len__, __str__
-
 class Node:
     def __init__(self,val):
         self.val=val
@@ -72,8 +69,10 @@ class Linked_List:
 
     def remove_first(self):
         if self._size>=1:
+            ans = self.head.val
             self.head = self.head.next
             self._size-=1
+            return ans
 
     def remove_at(self,index):
         if index<1 or index>self._size:
@@ -135,23 +134,34 @@ class Linked_List:
         self.head = prev
 
 
-l1 = Linked_List()
-for i in range(20):
-    l1.append(i)
-print('Size :',len(l1))
-print('20 Present ?',l1.search(20))
-print('2 Present ?',l1.search(2))
-print('Is empty ? ',l1.is_empty())
-l1.insert_at(1,100)
-l1.insert_at(30,100)
-l1.remove_first()
-print(l1)
-l1.remove_at(2)
-print(l1)
-l1.delete_by_value(15)
-print(l1)
-l1.del_last()
-print(l1)
+class Queue:
+    def __init__(self):
+        self.ll = Linked_List()
 
-st = {l1.head}
-print(st)
+    def __len__(self):
+        return len(self.ll)
+
+    def isEmpty(self):
+        return self.ll.is_empty()
+
+    def push(self,n):
+        self.ll.append(n)
+
+    def pop(self):
+        if self.isEmpty():
+            return None
+        return self.ll.remove_first()
+
+    def front(self):
+        if self.isEmpty():
+            return None
+        return self.ll.head.val
+
+q = Queue()
+for i in range(10):
+    q.push(i)
+
+while not q.isEmpty():
+    print(q.pop())
+
+print(q.isEmpty())
