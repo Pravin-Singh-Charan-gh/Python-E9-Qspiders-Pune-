@@ -1,18 +1,23 @@
 class A:
-    lst = []
+    a = []
 
 a1 = A()
 a2 = A()
 
-a1.lst += [100]
-##a1.lst = a1.lst + [100]
+a1.a += [100]
 
-print(A.lst)  
-print(a1.lst)
-print(a2.lst)
+print('A.a', A.a)
+print('a1.a',a1.a)
+print('a2.a',a2.a)
 
+##################################################################
+class B:
+    b = []
+b1 = B()
+b2 = B()
 
-##a1.lst = [1,2,3]
-##print(A.lst)  
-##print(a1.lst)
-##print(a2.lst)
+b1.b = b1.b + [100]
+
+print('B.b',B.b)
+print('b1.b',b1.b)
+print('b2.b',b2.b)
