@@ -5,7 +5,6 @@ class Vertex:
 
     def add_neighbours(self,neighbour):
         self.neighbours.append(neighbour)
-
 class Graph: 
     def __init__(self):
         self.nodes = []

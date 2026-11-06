@@ -4,8 +4,8 @@ class CarRental:
 
     def __init__(self,name,dl,phone):
         self.name = name
-        self.dl = dl 
-        self.phone =phone 
+        self.dl = dl
+        self.phone =phone
 
     def rent_car(self,car_name):
         if car_name not in self.car_on_rent:

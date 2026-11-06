@@ -1,0 +1,14 @@
+N Talks
+start day , end day
+P : Maximum talks per day 
+H, -> 1H, 2H , 3H...... holiday
+Maximum talks a delegate can attended
+
+5
+1 1 
+2 3
+1 2 
+3 5
+4 6
+P : 2
+H : 3

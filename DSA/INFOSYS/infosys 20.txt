@@ -1,0 +1,129 @@
+Priority 1 — Solve these first
+#
+Problem
+Main concept
+Priority
+============================================================
+1
+Maximum Subarray Sum
+Kadane's algorithm
+Very high
+============================================================
+2
+Two Sum
+Hashing
+Very high
+============================================================
+3
+Longest Substring Without Repeating Characters
+Sliding window
+Very high
+============================================================
+4
+Merge Overlapping Intervals
+Sorting, greedy
+Very high
+============================================================
+5
+Minimum Platforms Required
+Sorting, greedy
+Very high
+============================================================
+6
+Subarray Sum Equals K
+Prefix sum, hashmap
+Very high
+============================================================
+7
+Next Greater Element
+Monotonic stack
+High
+============================================================
+8
+Binary Search
+Searching
+High
+============================================================
+Priority 2 — DP and optimization
+#
+Problem
+Main concept
+Priority
+============================================================
+9
+0/1 Knapsack
+Dynamic programming
+Very high
+============================================================
+10
+Coin Change
+Dynamic programming
+Very high
+============================================================
+11
+Longest Common Subsequence (LCS)
+2D DP
+Very high
+============================================================
+12
+Subset Sum
+DP
+High
+============================================================
+13
+Longest Increasing Subsequence (LIS)
+DP / binary search
+High
+============================================================
+14
+Activity Selection
+Greedy
+High
+============================================================
+Priority 3 — Harder patterns for SP/DSE
+#
+Problem
+Main concept
+Priority
+============================================================
+15
+Maximum XOR of Two Numbers
+Bit manipulation / trie
+High
+============================================================
+16
+Number of Islands
+DFS / BFS
+High
+============================================================
+17             Shortest Path in a Weighted Graph             Dijkstra's algorithm             Medium
+============================================================
+18             Word Break             		    DP                                      High              
+============================================================
+19
+Gift Box Packing / Partition DP
+Partition DP
+High
+============================================================
+20
+Subsequence GCD with Update Queries
+GCD, number theory, query processing
+High
+
+
+
+
+
+
+
+
+
+
+Recommended solving order
+Arrays and hashing: Problems 1, 2, 6
+Sliding window and sorting: Problems 3, 4, 5
+Searching and stacks: Problems 8, 7
+Core DP: Problems 9, 10, 11, 12
+Greedy and optimization: Problems 14, 13
+Graphs and advanced DP: Problems 16, 17, 18, 19
+Advanced algorithms: Problems 15, 20
